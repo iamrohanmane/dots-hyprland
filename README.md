@@ -1,4 +1,4 @@
-# Minimal Hyprland Setup for Linux (AMD / INTEl)
+# Minimal Hyprland Setup for Linux
 
 Welcome to the **Minimal Hyprland Setup** repository! This configuration is designed to work seamlessly across **Arch**, **NixOS**, **openSUSE**, and **Tumbleweed**. It includes everything you need for a minimal, efficient setup using **Hyprland**, along with configurations for:
 
