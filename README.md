@@ -58,7 +58,7 @@ Make sure the following packages are installed on your system:
 
 On Arch Linux, you can install these with:
 ```bash
-sudo pacman -S kitty mpd ncmpcpp waybar wofi wlogout qt5ct
+sudo pacman -S kitty mpd ncmpcpp waybar wofi wlogout qt5ct dolphin
 ```
 
 For other distributions, use the respective package managers.
