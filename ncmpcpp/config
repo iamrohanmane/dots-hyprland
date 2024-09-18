@@ -48,12 +48,12 @@ mpd_crossfade_time = 5
 ## visualization or 44100:16:2 for stereo visualization. As an example here is
 ## the relevant section for mpd.conf:
 ##
-## audio_output {
-##        type            "fifo"
-##        name            "Visualizer feed"
-##        path            "/tmp/mpd.fifo"
-##        format          "44100:16:2"
-## }
+audio_output {
+       type            "fifo"
+       name            "Visualizer feed"
+       path            "/tmp/mpd.fifo"
+       format          "44100:16:2"
+}
 ##
 ## If the visualization on occasion diverges from the audio output, please set
 ## 'buffer_time' parameter of your audio output in mpd.conf to '100000' (100ms)
@@ -71,7 +71,7 @@ mpd_crossfade_time = 5
 ## visualizer.
 ##
 #
-#visualizer_data_source = /tmp/mpd.fifo
+visualizer_data_source = /tmp/mpd.fifo
 #
 ##
 ## Note: Below parameter is needed for ncmpcpp to determine which output
@@ -79,12 +79,12 @@ mpd_crossfade_time = 5
 ## to synchronize with audio.
 ##
 #
-#visualizer_output_name = Visualizer feed
+visualizer_output_name = Visualizer feed
 #
 ##
 ## If you set format to 44100:16:2, make it 'yes'.
 ##
-#visualizer_in_stereo = yes
+visualizer_in_stereo = yes
 #
 ##
 ## Note: set below to >=10 only if you have synchronization issues with
@@ -100,20 +100,19 @@ mpd_crossfade_time = 5
 #
 ## Available values: spectrum, wave, wave_filled, ellipse.
 ##
-#visualizer_type = spectrum
+visualizer_type = spectrum
 #
-#visualizer_fps = 60
+visualizer_fps = 60
 #
-#visualizer_autoscale = no
+visualizer_autoscale = no
 #
-#visualizer_look = ●▮
+visualizer_look = ●▮
 #
 #visualizer_color = blue, cyan, green, yellow, magenta, red
 #
 ## Alternative subset of 256 colors for terminals that support it.
 ##
-#visualizer_color = 47, 83, 119, 155, 191, 227, 221, 215, 209, 203, 197, 161
-#
+#visualizer_color = 37, 58, 76, 97, 123, 149, 136, 119, 102, 85, 68, 52
 ##
 ## Note: The next few visualization options apply to the spectrum visualizer.
 ##
@@ -123,7 +122,7 @@ mpd_crossfade_time = 5
 ## and visualizer_in_stereo set, artifacts may be visible on the bottom half of
 ## the visualization.
 #
-#visualizer_spectrum_smooth_look = yes
+visualizer_spectrum_smooth_look = yes
 #
 ## Use unicode block characters from "symbols for legacy computing". This
 ## improves the smooth look on transparent terminals by using special unicode
@@ -131,28 +130,28 @@ mpd_crossfade_time = 5
 ## edge of the spectrum. If it leads to a garbled output on the bottom edge of
 ## the spectrum, you can either change the font or disable this option.
 #
-#visualizer_spectrum_smooth_look_legacy_chars = yes
+visualizer_spectrum_smooth_look_legacy_chars = yes
 #
 ## A value between 1 and 5 inclusive. Specifying a larger value makes the
 ## visualizer look at a larger slice of time, which results in less jumpy
 ## visualizer output.
 #
-#visualizer_spectrum_dft_size = 2
+visualizer_spectrum_dft_size = 2
 #
-#visualizer_spectrum_gain = 10
+visualizer_spectrum_gain = 10
 #
 ## Left-most frequency of visualizer in Hz, must be less than HZ MAX
 #
-#visualizer_spectrum_hz_min = 20
+visualizer_spectrum_hz_min = 20
 #
 ## Right-most frequency of visualizer in Hz, must be greater than HZ MIN
 #
-#visualizer_spectrum_hz_max = 20000
+visualizer_spectrum_hz_max = 20000
 #
 ## Use log scaling for the frequency spectrum axes
 #
-#visualizer_spectrum_log_scale_x = yes
-#visualizer_spectrum_log_scale_y = yes
+visualizer_spectrum_log_scale_x = yes
+visualizer_spectrum_log_scale_y = yes
 #
 ##### system encoding #####
 ##
@@ -593,37 +592,37 @@ mpd_crossfade_time = 5
 ## are used there is a possibility that you'll be able to use only colors with
 ## transparent background.
 #
-#colors_enabled = yes
+colors_enabled = yes
 #
-#empty_tag_color = cyan
+empty_tag_color = cyan
 #
-#header_window_color = default
+header_window_color = default
 #
-#volume_color = default
+volume_color = default
 #
-#state_line_color = default
+state_line_color = default
 #
-#state_flags_color = default:b
+state_flags_color = default:b
 #
-#main_window_color = yellow
+main_window_color = blue
 #
-#color1 = white
+color1 = white
 #
-#color2 = green
+color2 = green
 #
-#progressbar_color = black:b
+progressbar_color = black:b
 #
-#progressbar_elapsed_color = green:b
+progressbar_elapsed_color = green:b
 #
-#statusbar_color = default
+statusbar_color = default
 #
-#statusbar_time_color = default:b
+statusbar_time_color = default:b
 #
-#player_state_color = default:b
+player_state_color = default:b
 #
-#alternative_ui_separator_color = black:b
+alternative_ui_separator_color = black:b
 #
-#window_border_color = green
+window_border_color = green
 #
-#active_window_border = red
+active_window_border = red
 #
