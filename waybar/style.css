@@ -61,6 +61,7 @@ window#waybar {
 #tray,
 #mode,
 #mpd,
+#custom-swaync,
 #custom-power {
     background: #1e1e2e;
     color: #d8cfc4;
@@ -125,6 +126,11 @@ window#waybar {
     animation-timing-function: steps(12);
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+#custom-swaync {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
 }
 
 #custom-power {

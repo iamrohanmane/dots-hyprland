@@ -33,5 +33,5 @@ case "$1" in
     ;;
 esac
 
-notify-send "📸 Screenshot Saved" "File: $(basename "$FILE")"
+notify-send "󰹑  Screenshot Saved" "File: $(basename "$FILE")"
 
