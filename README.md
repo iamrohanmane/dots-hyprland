@@ -1,7 +1,3 @@
-Here is a full-fledged `README.md` file for your repository, incorporating installation instructions and the `Getting Started` section based on your GitHub repo link:
-
-```markdown
-
 # Minimal Hyprland Setup for Linux
 
 Welcome to the **Minimal Hyprland Setup** repository! This configuration is designed to work seamlessly across **Arch**, **NixOS**, **openSUSE**, and **Tumbleweed**. It includes everything you need for a minimal, efficient setup using **Hyprland**, along with configurations for:
