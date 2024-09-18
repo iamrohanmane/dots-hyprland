@@ -1,13 +1,18 @@
 # Minimal Hyprland Setup for Linux
 
 Welcome to the **Minimal Hyprland Setup** repository! This configuration is designed to work seamlessly across **Arch**, **NixOS**, **openSUSE**, and **Tumbleweed**. It includes everything you need for a minimal, efficient setup using **Hyprland**, along with configurations for:
-
+- **hyprland**
+- **hypridle**
+- **hyprlock**
+- **hyprpepar** (wallpepar utilities)
 - **Kitty** (terminal)
 - **MPD** and **ncmpcpp** (music player and client)
 - **Waybar** (status bar)
 - **Wofi** (application launcher)
 - **wlogout** (logout menu)
 - **QT5 settings**
+- **swaync** (notification)
+- **grim,slurp** (screenshot)   
 
 ## 🖥️ Features
 
@@ -24,7 +29,7 @@ Follow these instructions to get your Hyprland setup running.
 
 For **Arch Linux**, use the following command to install Hyprland:
 ```bash
-sudo pacman -Sy hyprland
+sudo pacman -Sy hyprland 
 ```
 
 For **NixOS**, **openSUSE**, and **Tumbleweed**, use the respective package manager commands to install Hyprland. You can refer to the official documentation for installation on these platforms.
@@ -34,14 +39,15 @@ For **NixOS**, **openSUSE**, and **Tumbleweed**, use the respective package mana
 Next, clone this repository to your local machine:
 ```bash
 git clone https://github.com/iamrohanmane/dots-hyprland.git
-cd dots-hyprland
+ls 
+dots-hyprland
 ```
 
 ### Step 3: Copy Configuration Files
 
 Copy the necessary configuration files into your `.config` directory:
 ```bash
-cp -r hypr/ kitty/ mpd/ ncmpcpp/ qt5ct/ waybar/ wlogout/ wofi/ ~/.config
+cp -r dots-hyprland/* ~/.config
 ```
 
 ### Step 4: Install Required Packages
@@ -58,7 +64,7 @@ Make sure the following packages are installed on your system:
 
 On Arch Linux, you can install these with:
 ```bash
-sudo pacman -S kitty mpd ncmpcpp waybar wofi wlogout qt5ct dolphin
+sudo pacman -S kitty mpd ncmpcpp waybar wofi wlogout qt5ct thunar
 ```
 
 For other distributions, use the respective package managers.
@@ -77,6 +83,7 @@ Once the configuration files are copied and packages are installed, you can star
 - `waybar/`: Waybar configuration
 - `wlogout/`: wlogout configuration
 - `wofi/`: Wofi application launcher configuration
+- `swaync`: Notification center
 
 ## 🔧 Customization
 
