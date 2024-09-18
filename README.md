@@ -89,4 +89,3 @@ If you run into any issues or have questions, feel free to open an issue on this
 ---
 
 Enjoy your minimal, fast, and efficient Linux environment with Hyprland!
-```
