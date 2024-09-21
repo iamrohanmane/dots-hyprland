@@ -84,8 +84,8 @@
                     "command": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
                 },
                 {
-                    "label": "󰂯",
-                    "command": "blueman-manager"
+                    "label": "",
+                    "command": "bash -c $HOME/.config/hypr/scripts/gamemode.sh"
                 }
             ]
         }

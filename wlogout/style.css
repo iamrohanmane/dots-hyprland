@@ -1,14 +1,16 @@
 * {
   background-image: none;
 }
+
 window {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(24, 25, 38, 0.95); /* Darker Crust */
 }
+
 button {
-  color: #ffffff;
-  background-color: #2a3a6e;
+  color: #ffffff; /* White text */
+  background-color: #1e2030; /* Dark Mantle */
   border-style: solid;
-  border-color: #33ccfe;
+  border-color: #6e738d; /* Overlay0 */
   border-width: 2px;
   border-radius: 20%;
   background-repeat: no-repeat;
@@ -19,12 +21,12 @@ button {
 
 button:focus,
 button:active {
-  background-color: #06b6d4;
+  background-color: #363a4f; /* Surface0 */
   outline-style: none;
 }
 
 button:hover {
-  background-color: #353c4a;
+  background-color: #494d64; /* Surface1 */
 }
 
 #lock {
@@ -74,3 +76,4 @@ button:hover {
     url("/usr/local/share/wlogout/icons/reboot.png")
   );
 }
+

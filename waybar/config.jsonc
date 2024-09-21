@@ -11,7 +11,7 @@
 	"cpu",
 	"memory",
 	"temperature",
-        "hyprland/workspaces",
+        "hyprland/workspaces#sanskrit",
 	"mpd"
     ],
     "modules-center": [
@@ -31,6 +31,27 @@
     "hyprland/window": {
         "format": "󰣇 {}",
 	"max-length": 40
+    },
+    "hyprland/workspaces#sanskrit": {
+	"disable-scroll": true,
+	"show-special": false,
+	"all-outputs": true,
+	"format": "{icon}",
+	"persistent-workspaces": {
+		"*": 1
+	},
+	"format-icons": {
+		"1": "एक",  
+		"2": "द्व",  
+		"3": "त्रय",  
+		"4": "चतुर्",  
+		"5": "पञ्च",  
+		"6": "षट्",  
+		"7": "सप्त",  
+		"8": "अष्ट",  
+		"9": "नव",  
+		"10": "दस"
+	}
     },
     "mpd": {
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
