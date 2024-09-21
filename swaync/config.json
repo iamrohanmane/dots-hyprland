@@ -32,6 +32,7 @@
   "widgets": [
     "inhibitors",
     "dnd",
+    "mpris",
     "buttons-grid",
     "volume", 
     "backlight",
